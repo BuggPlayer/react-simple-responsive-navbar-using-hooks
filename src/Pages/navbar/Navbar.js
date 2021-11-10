@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
+
   const [isMobile, setisMobile] = useState(false);
+  
   return (
     <nav className="navbar">
       <h3 className="logo">LOGO</h3>
